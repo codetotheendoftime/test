@@ -1,0 +1,40 @@
+body {
+    margin: 0;
+    font-family: Tahoma, sans-serif;
+    font-size: 40px;
+}
+.container {
+    display: flex;
+	flex-direction: row;
+	position: fixed;
+
+}
+.container div{
+
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background-color: #eeeff2;
+    border-left: 10px dotted #D0D0FF;
+    color: #000000;
+    letter-spacing: 10px;
+    cursor: pointer;
+}
+p{padding-left: 10px;
+    margin-top: 15px;
+}
+
+.F {
+	display: -webkit-flex;
+	flex-direction: row;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+
+}
+
+.F:hover, .A:hover, .B:hover, .C:hover, .D:hover, .E:hover {
+    background-color: yellow;
+    color: goldenrod;
+    
+}

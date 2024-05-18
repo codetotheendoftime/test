@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    font-family: Comic Sans MS, Tahoma, sans-serif;
+    font-size: 40px;
+    background-color: #41b3ff;
+
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%);
+}
+
+.container div {
+    width: 100px;
+    height: 150px;
+    margin-right: 10px;
+    background: linear-gradient(to bottom,  #2e22d3, #32d2ee); 
+    border-left: 10px dotted #D0D0FF;
+    color: #000000;
+    letter-spacing: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease; 
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); 
+}
+
+p {
+    padding-left: 10px;
+    margin-top: 15px;
+}
+
+
+.F:hover,
+.A:hover,
+.B:hover,
+.C:hover,
+.D:hover,
+.E:hover {
+    background: linear-gradient(to bottom, #5caff3, #86ffdb);
+    color: #ff5e00; 
+    transform: scale(1.1); 
+    transition: transform 1s;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.4);
+}
